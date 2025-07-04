@@ -16,7 +16,14 @@ export const PALETTES = {
   'bestee': ['#9333ea', '#ec4899', '#3b82f6'], // Purple -> Pink -> Blue
   'bestee-glow': ['#f59e0b', '#ef4444', '#dc2626'], // Amber -> Red gradient
   'bestee-night': ['#1e293b', '#6366f1', '#a78bfa'], // Dark -> Indigo -> Light Purple
-  'bestee-neon': ['#22d3ee', '#10b981', '#a855f7'] // Cyan -> Emerald -> Purple
+  'bestee-neon': ['#22d3ee', '#10b981', '#a855f7'], // Cyan -> Emerald -> Purple
+  // Custom Venomous Sound palettes
+  'venom': ['#22c55e', '#84cc16', '#a3e635'], // Toxic green gradient
+  'venom-dark': ['#064e3b', '#047857', '#10b981'], // Dark to bright green
+  'venom-purple': ['#581c87', '#7c3aed', '#a855f7'], // Deep purple venom
+  'sound-wave': ['#0891b2', '#06b6d4', '#22d3ee'], // Cyan sound wave
+  'toxic': ['#65a30d', '#84cc16', '#bef264'], // Lime toxic gradient
+  'poison': ['#7c3aed', '#22c55e', '#84cc16'] // Purple to green poison
 } as const;
 
 export type PaletteName = keyof typeof PALETTES;

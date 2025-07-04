@@ -1,0 +1,1 @@
+[Filled logo - run 'node dist/index.js "SOUND" sound-wave --filled' to see]

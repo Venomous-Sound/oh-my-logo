@@ -1,0 +1,2 @@
+[Filled logo - run 'node dist/index.js "VENOMOUS
+SOUND" venom-purple --filled' to see]
