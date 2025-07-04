@@ -11,7 +11,12 @@ export const PALETTES = {
   'purple': ['#667db6', '#0082c8', '#0078ff'],
   'mint': ['#00d2ff', '#3a7bd5'],
   'coral': ['#ff9a9e', '#fecfef'],
-  'matrix': ['#00ff41', '#008f11']
+  'matrix': ['#00ff41', '#008f11'],
+  // Custom bESTEE palettes
+  'bestee': ['#9333ea', '#ec4899', '#3b82f6'], // Purple -> Pink -> Blue
+  'bestee-glow': ['#f59e0b', '#ef4444', '#dc2626'], // Amber -> Red gradient
+  'bestee-night': ['#1e293b', '#6366f1', '#a78bfa'], // Dark -> Indigo -> Light Purple
+  'bestee-neon': ['#22d3ee', '#10b981', '#a855f7'] // Cyan -> Emerald -> Purple
 } as const;
 
 export type PaletteName = keyof typeof PALETTES;
